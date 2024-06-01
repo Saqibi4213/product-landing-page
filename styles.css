@@ -73,6 +73,12 @@ body {
   font-weight: 500;
 }
 
+.btn span {
+  font-family: var(--poppins-font);
+  color: var(--bg-color);
+  text-transform: uppercase;
+}
+
 .nav-link:hover span {
   transform: scale(1) translateY(0);
   opacity: 1;
@@ -107,11 +113,11 @@ img {
   --main-color: #54372a;
   --second-color: #df582e;
   --text-color: #060413;
-  --container-color: #f8e4be;  
+  --container-color: #f8e4be;
   --bg-color: #f9f6f2;
-  --text-alter-color: #94908e;  
-  --poppins-font:'Poppins', sans-serif;  
-  --font-family-2:'Playfair Display', serif;
+  --text-alter-color: #94908e;
+  --poppins-font: 'Poppins', sans-serif;  
+  --font-family-2: 'Playfair Display', serif;
 }
 
 .container {
@@ -170,12 +176,6 @@ img {
   border-radius: 2rem;
   background: var(--text-color);
   text-decoration: none;
-}
-
-.btn span {
-  font-family: var(--poppins-font);
-  color: var(--bg-color);
-  text-transform: uppercase;
 }
 
 .btn .bx {
@@ -321,15 +321,19 @@ img {
   column-gap: 5px;
 }
 
-.product-info .bx:hover {
-  background: var(--main-color);
-  transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
+.input-box .bx {
+  color: var(--text-color);
 }
 
 .social .bx {
   font-size: 24px;
   color: var(--main-color);
   margin-right: 1rem;
+}
+
+.product-info .bx:hover {
+  background: var(--main-color);
+  transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .video {
@@ -396,10 +400,6 @@ img {
   border-radius: 2rem;
   padding: 2px 10px;
   margin: 1rem 0;
-}
-
-.input-box .bx {
-  color: var(--text-color);
 }
 
 .input-box input {
