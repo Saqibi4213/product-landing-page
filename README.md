@@ -41,9 +41,13 @@ you can access to my project through git clone
 
 ## Features ⭐
  -Responsive Design: Fully responsive UI that works seamlessly across various devices and screen sizes
+ <br />
  -Unit and Integration Tests:
+ <br />
  -using flex img forpage 
+ <br />
  -github usage
+ <br />
  -webpage-coffe-shop
 
 ## Author 👩‍💻
